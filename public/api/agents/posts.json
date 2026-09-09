@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-09",
+    "description": "Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards.",
+    "locale": "en-GB",
+    "tags": [],
+    "title": "@sebastienrousseau/ruby-config — Shareable Ruby configuration standards for RuboCop and StandardRB.",
+    "url": "https://sebastienrousseau.com/ruby-config/index.html",
+    "wordCount": 162
+  },
+  {
     "date": "",
     "description": "How to install and set up @sebastienrousseau/ruby-config.",
     "locale": "en-GB",
