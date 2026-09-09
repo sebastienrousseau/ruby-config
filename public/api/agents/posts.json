@@ -1,0 +1,38 @@
+[
+  {
+    "date": "",
+    "description": "How to install and set up @sebastienrousseau/ruby-config.",
+    "locale": "en-GB",
+    "tags": [],
+    "title": "Installation — @sebastienrousseau/ruby-config",
+    "url": "https://sebastienrousseau.com/ruby-config/installation/",
+    "wordCount": 45
+  },
+  {
+    "date": "",
+    "description": "Model Context Protocol configuration for @sebastienrousseau/ruby-config.",
+    "locale": "en-GB",
+    "tags": [],
+    "title": "Model Context Protocol (MCP) — @sebastienrousseau/ruby-config",
+    "url": "https://sebastienrousseau.com/ruby-config/mcp/",
+    "wordCount": 15
+  },
+  {
+    "date": "",
+    "description": "Reference specifications and options for @sebastienrousseau/ruby-config.",
+    "locale": "en-GB",
+    "tags": [],
+    "title": "Reference — @sebastienrousseau/ruby-config",
+    "url": "https://sebastienrousseau.com/ruby-config/reference/",
+    "wordCount": 30
+  },
+  {
+    "date": "",
+    "description": "How to use and configure @sebastienrousseau/ruby-config.",
+    "locale": "en-GB",
+    "tags": [],
+    "title": "Usage — @sebastienrousseau/ruby-config",
+    "url": "https://sebastienrousseau.com/ruby-config/usage/",
+    "wordCount": 30
+  }
+]

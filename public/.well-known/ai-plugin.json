@@ -1,0 +1,18 @@
+{
+  "api": {
+    "is_user_authenticated": false,
+    "type": "openapi",
+    "url": "https://sebastienrousseau.com/ruby-config/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@sebastienrousseau.com",
+  "description_for_human": "Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards.",
+  "description_for_model": "Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards.",
+  "legal_info_url": "https://sebastienrousseau.com/ruby-config/legal",
+  "logo_url": "https://sebastienrousseau.com/ruby-config/favicon.ico",
+  "name_for_human": "@sebastienrousseau/ruby-config — Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards.",
+  "name_for_model": "ruby_config",
+  "schema_version": "v1"
+}

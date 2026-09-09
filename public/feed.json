@@ -1,0 +1,65 @@
+{
+  "feed_url": "https://sebastienrousseau.com/ruby-config/feed.json",
+  "home_page_url": "https://sebastienrousseau.com/ruby-config/",
+  "items": [
+    {
+      "authors": [
+        {
+          "name": "Unknown"
+        }
+      ],
+      "content_html": "How to install and set up @sebastienrousseau/ruby-config.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://sebastienrousseau.com/ruby-config/installation/",
+      "tags": [],
+      "title": "Installation — @sebastienrousseau/ruby-config",
+      "url": "https://sebastienrousseau.com/ruby-config/installation/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Unknown"
+        }
+      ],
+      "content_html": "Model Context Protocol configuration for @sebastienrousseau/ruby-config.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://sebastienrousseau.com/ruby-config/mcp/",
+      "tags": [],
+      "title": "Model Context Protocol (MCP) — @sebastienrousseau/ruby-config",
+      "url": "https://sebastienrousseau.com/ruby-config/mcp/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Unknown"
+        }
+      ],
+      "content_html": "Reference specifications and options for @sebastienrousseau/ruby-config.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://sebastienrousseau.com/ruby-config/reference/",
+      "tags": [],
+      "title": "Reference — @sebastienrousseau/ruby-config",
+      "url": "https://sebastienrousseau.com/ruby-config/reference/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Unknown"
+        }
+      ],
+      "content_html": "How to use and configure @sebastienrousseau/ruby-config.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://sebastienrousseau.com/ruby-config/usage/",
+      "tags": [],
+      "title": "Usage — @sebastienrousseau/ruby-config",
+      "url": "https://sebastienrousseau.com/ruby-config/usage/"
+    }
+  ],
+  "language": "en-GB",
+  "title": "ruby-config",
+  "version": "https://jsonfeed.org/version/1.1"
+}

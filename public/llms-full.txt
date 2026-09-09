@@ -1,0 +1,5 @@
+# ruby-config
+
+> Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards.
+
+Language: en-GB
