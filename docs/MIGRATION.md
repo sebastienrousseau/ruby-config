@@ -1,6 +1,15 @@
-# `@sebastienrousseau/ruby-config` Migration Guide
+# Migration Guide for `@sebastienrousseau/ruby-config`
 
-Instructions for adopting or upgrading `@sebastienrousseau/ruby-config`.
+How to migrate from ad-hoc or legacy tooling configurations to `@sebastienrousseau/ruby-config`.
 
-## Version 0.0.1 (Initial Release)
-- Initial standard presets for Ruby tooling.
+## Upgrading from Previous Versions
+
+1. Update package version:
+   ```bash
+   npm install --save-dev @sebastienrousseau/ruby-config@latest
+   ```
+2. Verify module resolution with `npm test`.
+
+## Migrating from Bespoke Configurations
+
+Remove fragmented configuration files from the project root and reference `@sebastienrousseau/ruby-config` in your project configuration or config entrypoint.
