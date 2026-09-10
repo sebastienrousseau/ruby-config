@@ -19,7 +19,9 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. .rubocop.yml
+
 Comprehensive RuboCop configuration enabling Style, Layout, Lint, Performance, and Security departments. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. standard.yml
+
 StandardRB configuration for zero-bikeshedding Ruby code formatting. Designed to guarantee deterministic behavior across all development and continuous integration environments.
