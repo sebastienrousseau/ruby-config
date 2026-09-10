@@ -15,9 +15,8 @@
   <a href="https://www.npmjs.com/package/@sebastienrousseau/ruby-config"><img src="https://img.shields.io/npm/v/%40sebastienrousseau%2Fruby-config.svg?style=for-the-badge&color=fc8d62&logo=npm" alt="npm package" /></a>
   <a href="https://sebastienrousseau.com/ruby-config/"><img src="https://img.shields.io/badge/docs-sebastienrousseau.com-brightgreen.svg?style=for-the-badge&logo=github" alt="Documentation" /></a>
   <a href="https://scorecard.dev/viewer/?uri=github.com/sebastienrousseau/ruby-config"><img src="https://img.shields.io/ossf-scorecard/github.com/sebastienrousseau/ruby-config?style=for-the-badge&label=OpenSSF%20Scorecard&logo=openssf" alt="OpenSSF Scorecard" /></a>
-  <a href="https://www.bestpractices.dev/projects/14522"><img src="https://img.shields.io/cii/level/14522?style=for-the-badge&label=OpenSSF%20Best%20Practices&logo=openssf" alt="OpenSSF Best Practices" /></a>
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg?style=for-the-badge" alt="License: Apache-2.0 OR MIT" /></a>
-  <a href="#minimum-toolchain-policy"><img src="https://img.shields.io/badge/node->=%2018.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 18.0.0" /></a>
+  <a href="#minimum-toolchain-policy"><img src="https://img.shields.io/badge/node->=%2020.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 20.0.0" /></a>
 </p>
 
 ---
@@ -84,7 +83,7 @@ make            # check + test
 
 ## Requirements
 
-- **Node.js 18.0.0 or newer.** Every package manifest declares `engines.node`, and CI enforces the runtime floor on every push across macOS, Linux, and Windows.
+- **Node.js 20.0.0 or newer.** Declared in `engines.node` and proved on every push: the CI matrix runs Node 20, 22, 24 on Linux, macOS and Windows, and fails if the matrix floor and `engines.node` disagree.
 - **npm 9.0.0 or newer** (or modern pnpm / yarn / bun).
 - **Module systems.** Full native support for ECMAScript Modules (ESM) and CommonJS (CJS).
 - **Target environment**: Optimized for Ruby 3.3+ / RuboCop.
@@ -93,26 +92,19 @@ make            # check + test
 
 ## Quick Start
 
-### In `package.json`
+This package ships configuration for a toolchain that does not resolve anything through `node_modules`. Install it to version and update the presets, then either copy them into place or pass their path to the tool.
 
-```json
-{
-  "ruby": "@sebastienrousseau/ruby-config"
-}
+### Copy the presets into your project
+
+```bash
+cp node_modules/@sebastienrousseau/ruby-config/.rubocop.yml ./.rubocop.yml
+cp node_modules/@sebastienrousseau/ruby-config/standard.yml ./standard.yml
 ```
 
-### In CommonJS Configuration
+### Or point the tool at the installed file
 
-```js
-const config = require("@sebastienrousseau/ruby-config");
-module.exports = config;
-```
-
-### In ES Module Configuration
-
-```js
-import config from "@sebastienrousseau/ruby-config";
-export default config;
+```bash
+rubocop --config node_modules/@sebastienrousseau/ruby-config/.rubocop.yml
 ```
 
 ---
@@ -248,7 +240,7 @@ make test
 
 ## Minimum-toolchain policy
 
-The minimum supported Node.js version is **18.0.0**. The floor may raise only when:
+The minimum supported Node.js version is **20.0.0**. The floor may raise only when:
 
 1. An upstream LTS version reaches official End-of-Life (EOL).
 2. The reason is explicitly recorded in `CHANGELOG.md` and `DEVELOPMENT.md`.
