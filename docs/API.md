@@ -5,6 +5,7 @@ Comprehensive schema, property definitions, and exported options reference for `
 ---
 
 ## Description
+
 Shareable Ruby configuration standards providing RuboCop and StandardRB rules for Ruby 3.3+.
 
 ---
@@ -22,11 +23,13 @@ Shareable Ruby configuration standards providing RuboCop and StandardRB rules fo
 ## Feature & Property Reference
 
 ### 1. .rubocop.yml
+
 - **Description**: Comprehensive RuboCop configuration enabling Style, Layout, Lint, Performance, and Security departments.
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 2. standard.yml
+
 - **Description**: StandardRB configuration for zero-bikeshedding Ruby code formatting.
 - **Scope**: Production & Development
 - **Status**: Stable & Active
