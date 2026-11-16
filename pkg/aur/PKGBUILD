@@ -1,6 +1,6 @@
 # Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
 pkgname=nodejs-sebastienrousseau-ruby-config
-pkgver=0.0.7
+pkgver=0.0.9
 pkgrel=1
 pkgdesc="Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards"
 arch=('any')
