@@ -6,7 +6,7 @@
 class RubyConfig < Formula
   desc "Shareable Ruby configuration providing standardized RuboCop and StandardRB rules adhering to modern 2026 standards"
   homepage "https://github.com/sebastienrousseau/ruby-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/ruby-config/-/ruby-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/ruby-config/-/ruby-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
